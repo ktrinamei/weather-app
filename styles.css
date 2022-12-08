@@ -158,6 +158,36 @@ h2.current-temp {
   border: none;
 }
 
+.celsius-fahrenheit-switch {
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  position: relative;
+  top: -348px;
+  left: 345px;
+  width: 490px;
+}
+
+.celsius-fahrenheit-switch .active {
+  color: white;
+  cursor: default;
+}
+
+.celsius-fahrenheit-switch .active:hover {
+  text-decoration: none;
+}
+
+#celsius-link {
+  margin: 0 auto;
+  display: inline;
+}
+
+#fahrenheit-link {
+  margin: 0 auto;
+  display: inline;
+}
+
 footer {
   color: #ffff;
   text-align: center;
