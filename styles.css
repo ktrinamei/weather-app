@@ -1,0 +1,171 @@
+html body {
+  background-color: black;
+}
+
+h1.city {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffff;
+  font-family: "LCD", sans-serif;
+  text-shadow: 1px 1px 10px rgba(0, 255, 76, 0.5);
+  margin: 0 auto;
+  padding: 20px 0px 2px;
+}
+
+p.date {
+  display: block;
+  text-align: center;
+  color: rgb(200, 200, 200);
+  font-family: "LCD", sans-serif;
+  font-size: 20px;
+}
+
+h2.current-temp {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 122px;
+  font-family: "LCD", sans-serif;
+  margin: 0 auto;
+  position: relative;
+  top: -206px;
+  left: -12px;
+  width: 100px;
+}
+
+.current-high-low {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-family: "LCD", sans-serif;
+  color: #ffff;
+  padding: 0 0 30px;
+  margin: 0 auto;
+  position: relative;
+  top: -227px;
+}
+
+.current-high-temp,
+.current-low-temp {
+  display: inline;
+}
+
+.weekdays {
+  text-align: center;
+  color: #ffff;
+  font-family: "LCD", sans-serif;
+  text-shadow: 1px 1px 10px rgba(0, 255, 76, 0.5);
+  position: relative;
+  top: -10px;
+}
+
+.future-high-temp {
+  text-align: center;
+  margin: 0 auto;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "LCD", sans-serif;
+  text-shadow: 1px 1px 10px rgba(0, 255, 76, 0.5);
+}
+
+.future-low-temp {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 13px;
+  font-family: "LCD", sans-serif;
+  color: #ffff;
+}
+
+.search-city {
+  display: block;
+  margin: 0 auto;
+  padding: 1px 70px;
+  border-radius: 15px;
+}
+
+.cloudy {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 290px;
+  opacity: 80%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.sunny,
+.rainy,
+.thunder,
+.windy,
+.foggy {
+  display: block;
+  margin: 0 auto;
+  font-size: 25px;
+  color: rgb(178, 178, 178);
+  position: relative;
+  top: -10px;
+}
+
+.row {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 35px;
+}
+
+.card.day {
+  display: block;
+  background-color: rgb(24, 24, 24, 0.8);
+  padding: 23px 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.temperature-for-week {
+  display: block;
+  margin: 0;
+  position: relative;
+  top: -180px;
+}
+
+.card.extra-info {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  border: none;
+  background-color: rgb(37, 37, 37, 0.8);
+  padding: 10px;
+  font-family: "LCD", sans-serif;
+  position: relative;
+  top: -222px;
+  left: 98px;
+  width: 200px;
+  padding: 20px;
+}
+
+#search-city {
+  margin: 0 auto;
+  text-align: center;
+  padding: 17px;
+}
+
+#search-input {
+  width: 350px;
+  border: none;
+}
+
+footer {
+  color: #ffff;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.coder {
+  font-size: 12px;
+  font-family: "LCD", sans-serif;
+}
