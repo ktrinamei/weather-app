@@ -90,6 +90,14 @@ function showTemperature(response) {
 
   let humidityPercentage = document.querySelector("#humidity-value");
   humidityPercentage.innerHTML = `Humidity | ${response.data.main.humidity} %`;
+
+  let tempIcon = document.querySelector("#icon");
+  tempIcon.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+
+  tempIcon.setAttribute("alt", response.data.weather[0].description);
 }
 
 function showFahrenheitTemp(event) {

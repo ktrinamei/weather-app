@@ -147,6 +147,16 @@ h2.current-temp {
   padding: 20px;
 }
 
+#icon {
+  margin: 0 auto;
+  display: block;
+  width: 228px;
+  height: 228px;
+  position: relative;
+  top: 225px;
+  left: -130px;
+}
+
 #search-city {
   margin: 0 auto;
   text-align: center;
