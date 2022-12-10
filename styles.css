@@ -123,11 +123,26 @@ h2.current-temp {
   border-radius: 20px;
 }
 
-.temperature-for-week {
-  display: block;
-  margin: 0;
+.week-forecast {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-family: "LCD", sans-serif;
   position: relative;
   top: -180px;
+}
+
+.forecast-day {
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.week-forecast-temp {
+  font-size: 20px;
+}
+
+.wf-min {
+  color: rgb(178, 178, 178);
 }
 
 .card.extra-info {
