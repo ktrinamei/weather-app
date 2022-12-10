@@ -69,7 +69,7 @@ function showTemperature(response) {
 
   let temperature = Math.round(celsiusTemp);
   let cityTemperature = document.querySelector(".current-temp");
-  cityTemperature.innerHTML = `${temperature}`;
+  cityTemperature.innerHTML = Math.round(response.data.main.temp);
 
   // EXTRA INFO DATA
   let highTemperature = document.querySelector(".current-high-temp");
