@@ -83,7 +83,7 @@ h2.current-temp {
   display: block;
   margin: 0 auto;
   padding: 1px 70px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .cloudy {
@@ -134,7 +134,7 @@ h2.current-temp {
 
 .forecast-day {
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .week-forecast-temp {
