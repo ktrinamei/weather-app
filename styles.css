@@ -1,5 +1,5 @@
 html body {
-  background-color: black;
+  background-color: rgb(232, 217, 184);
 }
 
 h1.city {
@@ -8,8 +8,7 @@ h1.city {
   font-size: 60px;
   font-weight: bold;
   color: #ec6e4c;
-  font-family: "LCD", sans-serif;
-  /* text-shadow: 1px 1px 10px rgba(0, 255, 76, 0.5); */
+  font-family: "Manrope", sans-serif;
   margin: 0 auto;
   padding: 20px 0px 2px;
 }
@@ -17,8 +16,8 @@ h1.city {
 p.date {
   display: block;
   text-align: center;
-  color: rgb(200, 200, 200);
-  font-family: "LCD", sans-serif;
+  color: rgb(78, 58, 31);
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
 }
 
@@ -27,7 +26,7 @@ h2.current-temp {
   text-align: center;
   color: white;
   font-size: 130px;
-  font-family: "LCD", sans-serif;
+  font-family: "Manrope", sans-serif;
   margin: 0 auto;
   position: relative;
   top: -1px;
@@ -37,31 +36,31 @@ h2.current-temp {
 
 .high-temp,
 .low-temp {
-  color: #fff;
+  color: rgb(78, 58, 31);
 }
 
 .current-high-low {
   display: block;
   text-align: center;
   font-size: 25px;
-  font-family: "LCD", sans-serif;
-  color: rgb(200, 200, 200);
+  font-family: "Manrope", sans-serif;
+  color: rgb(78, 58, 31);
   padding: 0 0 30px;
   margin: 0 auto;
   position: relative;
-  top: -34px;
+  top: -55px;
 }
 
 .current-high-temp,
 .current-low-temp {
   display: inline;
-  color: #fff;
+  color: rgb(78, 58, 31);
 }
 
 .weekdays {
   text-align: center;
   color: #ffff;
-  font-family: "LCD", sans-serif;
+  font-family: "Manrope", sans-serif;
   position: relative;
   top: -10px;
 }
@@ -72,14 +71,14 @@ h2.current-temp {
   color: #ffff;
   font-weight: bold;
   font-size: 20px;
-  font-family: "LCD", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .future-low-temp {
   text-align: center;
   margin: 0 auto;
   font-size: 13px;
-  font-family: "LCD", sans-serif;
+  font-family: "Manrope", sans-serif;
   color: #ffff;
 }
 
@@ -99,10 +98,10 @@ h2.current-temp {
 .week-forecast {
   margin: 0 auto;
   text-align: center;
-  color: white;
-  font-family: "LCD", sans-serif;
+  color: rgb(78, 58, 31);
+  font-family: "Manrope", sans-serif;
   position: relative;
-  top: -245px;
+  top: -267px;
 }
 
 .forecast-day {
@@ -114,8 +113,12 @@ h2.current-temp {
   font-size: 20px;
 }
 
+.wf-max {
+  color: #ec6e4c;
+}
+
 .wf-min {
-  color: rgb(178, 178, 178);
+  color: rgb(78, 58, 31);
 }
 
 .forecast-icon {
@@ -129,11 +132,12 @@ h2.current-temp {
   text-transform: capitalize;
   color: white;
   border: none;
-  background-color: rgb(37, 37, 37, 0.8);
+  border-radius: 15px;
+  background-color: rgba(156, 83, 40, 0.09);
   padding: 10px;
-  font-family: "LCD", sans-serif;
+  font-family: "Manrope", sans-serif;
   position: relative;
-  top: -285px;
+  top: -305px;
   left: 95px;
   width: 200px;
   padding: 20px;
@@ -145,7 +149,7 @@ h2.current-temp {
   width: 250px;
   height: 250px;
   position: relative;
-  top: -80px;
+  top: -95px;
   left: -130px;
 }
 
@@ -158,6 +162,22 @@ h2.current-temp {
 #search-input {
   width: 350px;
   border: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+#search-button {
+  border-radius: 15px;
+  border: none;
+  padding: 5px 10px;
+  color: rgb(78, 58, 31);
+}
+
+#geo-location {
+  border-radius: 15px;
+  border: none;
+  padding: 5px 10px;
+  color: #ec6e4c;
 }
 
 .celsius-fahrenheit-switch {
@@ -165,7 +185,8 @@ h2.current-temp {
   display: block;
   text-decoration: none;
   font-size: 40px;
-  font-family: "LCD", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
   position: relative;
   top: -151px;
   left: 339px;
@@ -201,10 +222,11 @@ footer {
 
 .coder {
   font-size: 12px;
-  font-family: "LCD", sans-serif;
+  font-family: "Manrope", sans-serif;
+  color: rgb(78, 58, 31);
 }
 
 .github {
   font-size: 12px;
-  font-family: "LCD", sans-serif;
+  font-family: "Manrope", sans-serif;
 }

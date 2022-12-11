@@ -125,23 +125,23 @@ function showTemperature(response) {
 
   // EXTRA INFO DATA
   let highTemperature = document.querySelector(".current-high-temp");
-  highTemperature.innerHTML = `High ${Math.round(
-    response.data.main.temp_max
-  )}°C |`;
+  highTemperature.innerHTML = `High <i class="fa-solid fa-caret-up"></i
+          > ${Math.round(response.data.main.temp_max)} °C  `;
 
   celsiusTemp = response.data.main.temp;
 
   let lowTemperature = document.querySelector(".current-low-temp");
-  lowTemperature.innerHTML = `Low ${Math.round(response.data.main.temp_min)}°C`;
+  lowTemperature.innerHTML = ` Low <i class="fa-solid fa-caret-down"></i
+          > ${Math.round(response.data.main.temp_min)} °C`;
 
   let description = document.querySelector("#temp-description");
   description.innerHTML = response.data.weather[0].description;
 
   let windSpeed = document.querySelector("#wind-value");
-  windSpeed.innerHTML = `Wind | ${Math.round(response.data.wind.speed)} MPH`;
+  windSpeed.innerHTML = `Wind : ${Math.round(response.data.wind.speed)} MPH`;
 
   let humidityPercentage = document.querySelector("#humidity-value");
-  humidityPercentage.innerHTML = `Humidity | ${response.data.main.humidity} %`;
+  humidityPercentage.innerHTML = `Humidity : ${response.data.main.humidity} %`;
 
   let tempIcon = document.querySelector("#icon");
   tempIcon.setAttribute(
