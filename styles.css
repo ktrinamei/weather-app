@@ -45,7 +45,7 @@ h2.current-temp {
   text-align: center;
   font-size: 25px;
   font-family: "LCD", sans-serif;
-  color: #ffff;
+  color: rgb(200, 200, 200);
   padding: 0 0 30px;
   margin: 0 auto;
   position: relative;
@@ -175,20 +175,21 @@ h2.current-temp {
 .celsius-fahrenheit-switch .active {
   color: white;
   cursor: default;
-}
-
-.celsius-fahrenheit-switch .active:hover {
   text-decoration: none;
 }
 
 #celsius-link {
   margin: 0 auto;
   display: inline;
+  text-decoration: none;
 }
 
-#fahrenheit-link {
-  margin: 0 auto;
-  display: inline;
+#celsius-link:active {
+  color: #fff;
+}
+
+#celsius-link:active {
+  color: #fff;
 }
 
 footer {
