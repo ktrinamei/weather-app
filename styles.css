@@ -86,41 +86,10 @@ h2.current-temp {
   border-radius: 10px;
 }
 
-.cloudy {
-  display: block;
-  color: white;
-  text-align: center;
-  font-size: 290px;
-  opacity: 80%;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.sunny,
-.rainy,
-.thunder,
-.windy,
-.foggy {
-  display: block;
-  margin: 0 auto;
-  font-size: 25px;
-  color: rgb(178, 178, 178);
-  position: relative;
-  top: -10px;
-}
-
 .row {
   margin: 0 auto;
   text-align: center;
   line-height: 35px;
-}
-
-.card.day {
-  display: block;
-  background-color: rgb(24, 24, 24, 0.8);
-  padding: 23px 10px;
-  border: none;
-  border-radius: 20px;
 }
 
 .week-forecast {
@@ -222,6 +191,11 @@ footer {
 }
 
 .coder {
+  font-size: 12px;
+  font-family: "LCD", sans-serif;
+}
+
+.github {
   font-size: 12px;
   font-family: "LCD", sans-serif;
 }
