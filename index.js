@@ -42,6 +42,33 @@ let month = months[now.getMonth()];
 
 currentDate.innerHTML = `${day}, ${date} ${month}, ${year} ${hours}:${minutes}`;
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Sun", "Mon", "Tues", "Wed", "Thu", "Fri"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+        <div class="col-2">
+          <div class="forecast-day">${day}</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt=""
+            width="80px"
+          />
+          <div class="week-forecast-temp">
+            <span class="wf-max"> 18° </span>
+            <span class="wf-min"> 12°</span>
+          </div>
+        </div>
+  `;
+  });
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 // CITY SEARCH
 function citySearch(event) {
   let apiKey = "f5029b784306910c19746e40c14d6cd3";
@@ -143,3 +170,5 @@ function currentGeoLocation(event) {
 
 let geoLocationButton = document.querySelector("#geo-location");
 geoLocationButton.addEventListener("click", currentGeoLocation);
+
+displayForecast();
