@@ -37,7 +37,7 @@ h2.current-temp {
 
 .high-temp,
 .low-temp {
-  color: #ec6e4c;
+  color: #fff;
 }
 
 .current-high-low {
@@ -55,13 +55,13 @@ h2.current-temp {
 .current-high-temp,
 .current-low-temp {
   display: inline;
+  color: #fff;
 }
 
 .weekdays {
   text-align: center;
   color: #ffff;
   font-family: "LCD", sans-serif;
-  text-shadow: 1px 1px 10px rgba(0, 255, 76, 0.5);
   position: relative;
   top: -10px;
 }
@@ -73,7 +73,6 @@ h2.current-temp {
   font-weight: bold;
   font-size: 20px;
   font-family: "LCD", sans-serif;
-  text-shadow: 1px 1px 10px rgba(0, 255, 76, 0.5);
 }
 
 .future-low-temp {
@@ -103,7 +102,7 @@ h2.current-temp {
   color: white;
   font-family: "LCD", sans-serif;
   position: relative;
-  top: -180px;
+  top: -245px;
 }
 
 .forecast-day {
@@ -165,11 +164,11 @@ h2.current-temp {
   margin: 0 auto;
   display: block;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 40px;
   font-family: "LCD", sans-serif;
   position: relative;
-  top: -116px;
-  left: 345px;
+  top: -151px;
+  left: 339px;
   width: 490px;
 }
 
